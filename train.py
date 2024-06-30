@@ -211,7 +211,6 @@ if __name__ == "__main__":
             # weight=class_weight  # 設定各類別的權重
         )
 
-        # !wandb login d6b5146b32f8d1aada959ea889f74b2d9b9f74c5
         wandb.init(
             project="Class stage classification",
             # name=config['exp_name'],
